@@ -2,7 +2,7 @@
  * @Author: Escher1108
  * @Website: https://jkgblog.com
  * @Date: 2022-01-08 23:28:19
- * @LastEditTime: 2022-01-09 13:37:54
+ * @LastEditTime: 2022-01-09 18:19:56
  * @LastEditors: Do not edit
  * @FilePath: \proxysite\src\views\Home.vue
  * @Description: 耶斯莫拉
@@ -157,7 +157,7 @@ export default {
         "http",
         "https",
       ],
-      value: 0,
+      value: 1,
       isRefresh: false,
       isStatus: false,
       host: "",
