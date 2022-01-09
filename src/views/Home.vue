@@ -2,7 +2,7 @@
  * @Author: Escher1108
  * @Website: https://jkgblog.com
  * @Date: 2022-01-08 23:28:19
- * @LastEditTime: 2022-01-09 18:19:56
+ * @LastEditTime: 2022-01-09 20:39:19
  * @LastEditors: Do not edit
  * @FilePath: \proxysite\src\views\Home.vue
  * @Description: 耶斯莫拉
@@ -151,13 +151,13 @@ export default {
   data() {
     return {
       typeArr: [
-        "You can Choose Proxy type default socks4",
+        "You can choose proxy type (default random)",
         "socks4",
         "socks5",
         "http",
         "https",
       ],
-      value: 1,
+      value: 0,
       isRefresh: false,
       isStatus: false,
       host: "",
